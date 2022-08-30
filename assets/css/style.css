@@ -91,6 +91,7 @@ background: darkgray;
     width: 80%;
     margin: 0 auto;
     justify-content: space-between;
+    
 }
 
 .caja {
@@ -101,6 +102,7 @@ background: darkgray;
     margin: 15px;
     text-align: center;
     line-height: 150px;
+    border-radius: 10px;
 }
 .html5{
     background: coral;

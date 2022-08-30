@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding-left: 1.5px ;
+    padding-right: 1.5px;
+
+}
+:root {
+    --h3:font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Serif', serif;
+    --main-bg-color: brown;
+  }
+html{
+    scroll-behavior: smooth;
+}
+ol, ul, li {
+    list-style: none;
+}
+header{
+    display: flex;
+    background-color: rgb(121, 119, 117);
+    justify-content: space-between;
+}
+.header_p{
+    padding:1em;
+    color: cornflowerblue;
+    font-size: 1.9em;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+nav ul a{
+
+    font-size: 1.4em;
+    text-decoration: none;
+    padding-right: 2em;
+    color: cornflowerblue;
+    transition: all .3s ease-in-out
+}
+
+nav ul a:hover{
+
+transform: scale(1.2);
+color:white;
+}
+h3{
+    background: cornflowerblue;
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(246, 244, 244);
+    justify-content: center;
+    
+}
+.sobre_mi{
+    
+}
+.sobre_mi_container{
+    background: darkgray;
+    display: flex;
+}
+.sobremi_p{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding: 1em;
+
+
+}
+.sobremi_img{
+    padding: 1em;
+    display: flex;
+    width: 350px;
+    height: 350px;
+}
+.skill_cards, .proyectos_cards, .hobbies_cards, .proyecto_cards, .formacion_cards, .contacto_form{
+width: 100%;
+height: 400px;
+background: darkgray;
+}
+
+.grid-skill_cards{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.caja {
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    background-color: cadetblue;
+    margin: 15px;
+    text-align: center;
+    line-height: 150px;
+}
+.html5{
+    background: coral;
+}
+.css{
+    background: crimson;
+}
+.js{
+    background: darkgoldenrod;
+}
+.python{
+    background: darkred;
+}
+.ruby{
+    background: darkslateblue;
+}
+.github{
+    background: darkturquoise;
+}
+.caja:hover{
+    background: deeppink;
+    border-radius: 10px;
+    box-shadow: 10px 10px dimgray;
+    transition: all .3s ease-in-out;
+    trans
+    
+}
+
+
+
+.hobbies{
+    background: grey;
+}
+.formacion{
+    background: grey;
+}
+.contacto{
+
+}
+.footer{
+    width: 100%;
+    height: 400px;      
+    background-color: rgb(121, 119, 117);
+}
